@@ -13,6 +13,7 @@ def run_game(game_module):
     Args:
         game_module (function): game engine module
     """
+    print('PIP')
     say_welcome(game_module.GAME_DESCRIPTION)
     user_name = get_user_name()
     for step in range(GAME_STEPS):
